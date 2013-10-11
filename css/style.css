@@ -2,6 +2,9 @@ body{
 	color: #333;
 	background-color: #89b556;
 	font-size: 12px;
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-position: 85% 0;
 }
 
 a{
@@ -10,8 +13,12 @@ a{
 
 .holder{
 	width: 953px;
-	margin: 30px auto 0 auto;
+	margin: 0 auto;
 	word-wrap: break-word;
+}
+
+.content-margin-top{
+	margin-top: 50px;
 }
 
 
@@ -149,6 +156,13 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 		background-color: #fff;
 	}
 
+	.bottom-content-bg{
+		margin-top: 20px;
+		border-radius: 11px;
+		-webkit-border-radius:11px;
+		background-color: #ddedcc;
+	}
+
 	.contentDealTitle{
 		padding:14px 16px 22px;
 		margin: 0;
@@ -270,15 +284,78 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 		padding: 10px 0;
 	}
 
-	.contentDeal-buyBox ul.countdownTimer{
-		background-color: #ddedcc;
-		padding: 10px 0;
-		list-style: none;
-		margin: 0 0;
-		text-align: center;
+	.green-sidebar{
+		
+		padding-top: 10px;
+		
 	}
 
-	.contentDeal-buyBox ul.countdownTimer li.timeleft{
-		font-size: 18px;
+	.merchant-info{
+		margin-bottom: 16px;
+		padding-bottom: 16px;
+		border-bottom: 1px solid #ccc;
+	}
+
+	.merchant-info .merchant-website{
+		display: block;
+	}
+
+	.merchant-info .merchant-website a{
+		text-decoration: underline;
+		color: #0185c6;
+		line-height: 1.5em;
+	}
+
+	.mapCanvas iframe{
+		margin-bottom: 25px;
+		border:1px solid #8cb75a;
+	}
+
+	ul.green-sidebar-address{
+		list-style: none;
+		margin: 0 0;
+		padding:0 0;
+
+	}
+
+	ul.green-sidebar-address a{
+		color: #0185c6;
+	}
+
+	ul.green-sidebar-address a:hover{
+		text-decoration: underline;
+	}
+
+	ul.green-sidebar-address li.merchantPresents{
+		margin-top: 10px;
 		font-weight: bold;
+		line-height: 1.3em;
+		padding-bottom: 10px;
+	}
+
+	.bottom-content-right{
+		background-color: #fff;
+		border-top-right-radius: 11px;
+		border-bottom-right-radius: 11px;
+	}
+
+	.bottom-content-right h3{
+		font-weight: bold;
+		font-size: 1.17em;
+		line-height: 1.5;
+	}
+
+	.bottom-content-right img{
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	.bottom-content-right ul{
+		margin:10px 0 10px 0;
+		padding: 0 16px 0 0;
+		overflow: hidden;
+	}
+
+	.bottom-content-right p{
+		margin: 10px 0;
 	}
