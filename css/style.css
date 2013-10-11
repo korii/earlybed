@@ -11,14 +11,18 @@ a{
 	color: #0185c6;
 }
 
-.holder{
+.container{
 	width: 953px;
+}
+
+.holder{
+	
 	margin: 0 auto;
 	word-wrap: break-word;
 }
 
 .content-margin-top{
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 
@@ -141,7 +145,7 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 	font-weight: bold;
 	height: 25px;
 	line-height: 22px;
-
+	width: 100%;
 	}
 
 	.sidebar-btn:hover, .sidebar-btn:focus{
@@ -358,4 +362,114 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 
 	.bottom-content-right p{
 		margin: 10px 0;
+	}
+
+	.navbar-inverse .navbar-nav>li>a, .userNav li a{
+		color: #ccc;
+		text-shadow:0 1px 2px #000 !important;
+		font-size: 14px;
+	}
+
+	.navbar-nav li.active a{
+		color:#fcfcfa;
+		-webkit-border-radius:5px 5px 0 0;
+		border-radius:5px 5px 0 0;
+		-webkit-box-shadow:0 1px 0 rgba(255,255,255,0.4) inset, 0 -3px 5px rgba(0,0,0,0.2);
+		box-shadow:0 1px 0 rgba(255,255,255,0.4) inset, 0 -3px 5px rgba(0,0,0,0.2);
+		background:-webkit-linear-gradient(#81a950, #699736);
+		background:-moz-linear-gradient(#81a950, #699736);
+		background:-o-linear-gradient(#81a950, #699736);
+		background:-ms-linear-gradient(#81a950, #699736);
+		background:linear-gradient(#81a950, #699736);
+		-pie-background:linear-gradient(#81a950, #699736);
+		-webkit-background-clip:padding;
+		-moz-background-clip:padding;
+		background-clip:padding-box;
+		max-width:none;
+	}
+
+	.navbar{
+		padding-top: 5px;
+	}
+
+	/** BOOKING ENGINE PAGE **/
+
+	.userNav{
+		list-style: none;
+		margin: 0 0;
+		padding:15px 0 0 0;
+	}
+
+	.userNav li{
+		display: inline-block;
+		padding-right: 7px;
+	}
+
+	.userNav li a:hover{
+		text-decoration: none;
+		color: #fff;
+	}
+	
+	.userNav li:first-child{
+		background-image: url(../img/sprite.png);
+		background-repeat: no-repeat;
+		background-position: -147px -235px;
+		padding-left: 7px;
+	}
+
+	.userNav li a{
+		font-size: 11px;
+	}
+
+	a.rafBtn{
+		background-image: url(../img/sprite.png);
+		background-repeat: no-repeat;
+		background-position: 50% -293px;
+		display: block;
+		padding:17px 83px 17px 41px;
+		text-align: center;
+		color: #fff;
+		font-size: 13px;
+		text-shadow:0 -1px 0 #668c3a;
+		line-height: 0;
+		font-weight: bold;
+	}
+
+	a.rafBtn:hover{
+		text-decoration: none;
+	}
+
+	.boxCitySelector ul{
+		list-style: none;
+		margin: 0 0;
+		padding: 0 0;
+	}
+
+	.boxCitySelector ul li{
+		display: inline-block;
+	}
+
+	.boxCitySelector ul li a.city-name{
+		display: block;
+		font-size: 28px;
+		line-height: 48px;
+		vertical-align: middle;
+		color: #fff;
+		text-shadow:0 1px 1px rgba(0,0,0,0.4);
+		font-weight: bold;
+		padding-left: 20px;
+		background-image: url(../img/sprite.png);
+		background-repeat: no-repeat;
+		background-position: -138px -345px;
+	}
+
+	.boxCitySelector ul li a.subscription{
+		color: #fff;
+		text-shadow:0 1px 1px rgba(0,0,0,0.6);
+		margin: 0 10px 0 0;
+		padding-left: 20px;
+		background-image: url(../img/sprite.png);
+		background-repeat: no-repeat;
+		background-position: -138px -398px;
+		font-size: 14px;
 	}
