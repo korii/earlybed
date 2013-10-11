@@ -6,6 +6,7 @@ body{
 	width: 953px;
 	margin: 0 auto;
 	overflow: hidden;
+	word-wrap: break-word;
 }
 
 
@@ -31,6 +32,27 @@ body{
 
 .sidebar-content{
 	border-top: 1px solid #ddedcd;
-	padding:10px;
+	padding:10px 0;
 	background: #fff;
+}
+
+a.extra-deal{
+	display: block;
+	padding:0 10px;
+	position: relative;
+}
+
+.extra-deal img{
+	float: left;
+	border:1px solid #929292
+}
+
+.extra-deal .dealDataRight{
+	display: inline-block;
+	width: 94px;
+}
+
+.extra-deal .dealDataRight .price, .extra-deal .dealDataRight .value, .extra-deal .dealDataRight .sidebar-btn{
+	display: block;
+	text-align: center;
 }
