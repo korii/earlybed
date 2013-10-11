@@ -439,37 +439,268 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 		text-decoration: none;
 	}
 
-	.boxCitySelector ul{
+	.booking-content{
+		margin-top: 50px;
+	
+	}
+
+	.booking-content-top{
+		display: block;
+		padding: 10px 10px 0 10px;
+		overflow: hidden;
+		line-height: 0;
+	}
+
+	.booking-content h1{
+		display: block;
+		color: #616666;
+		font-size: 30px;
+		padding: 20px 20px 30px 20px;
+	}
+
+	.booking-listing{
+		list-style: none;
+		padding: 0 0;
+		margin: 0 0;
+	} 
+
+	.booking-listing img{
+		width: 100%;
+	}
+
+	.booking-listing li{
+		margin-bottom: 30px;
+	}
+
+	.booking-item{
+		background: url("../img/gradient-bg-booking.png") repeat-x scroll 0 bottom transparent;
+		border:1px solid #D3D0D0;
+		border-radius: 4px;
+		box-shadow: 1px 1px 7px #E6E6E6;
+		position: relative;
+		padding:8px 7px;
+		display: block;
+	}
+
+	.more-block2{
+		background: url("../img/price-arrow.png") no-repeat scroll 6px 5px transparent;
+		position: relative;
+		bottom: 0;
+		height: 88px;
+		left: 61px;
+		width: 339px;
+	}
+
+	.booking-item:hover .more-block2{
+		background: url("../img/price-arrow2.png") no-repeat scroll 0 5px transparent;
+
+	}
+
+	.highlighted-price, .highlighted-price-upper{
+		background: none repeat scroll 0 0 #3D3D3D;
+		border: 1px solid #FFFFFF;
+		border-radius: 8px;
+		height: 53px;
+		left: 12px;
+		padding:0 5px;
+		position: absolute;
+		text-align: center;
+		top: 209px;
+		z-index: 10;
+		line-height: 0;
+	}
+
+	.highlighted-price-upper{
+		left: 22px;
+		top: 26px;
+	}
+
+	.highlighted-price h6, .highlighted-price-upper h6{
+		color: #fff;
+		font-size: 12px;
+		padding-top: 0;
+		font-weight: bold;
+	}
+
+	.highlighted-price p, .highlighted-price-upper p{
+		color: #fff;
+		font-size: 10;
+		font-weight: bold;
+		margin: 0 0;
+
+	}
+
+	.more-block2 span.details{
+		float: left;
+		padding-left: 80px;
+		padding-top: 34px;
+		text-align: right;
+		width: 180px;
+	}
+
+	.more-block2-upper span.details{
+		padding-left:10px;
+		padding-top: 24px;
+	}
+
+	.details h3{
+		font-weight: bold;
+		font-size: 12px;
+		text-shadow:1px 1px 0 rgba(255, 255, 255, 0.64);
+		margin-top: 5px;
+		color: #616666;
+	}
+
+	.details p{
+		color: #616666;
+	}
+
+	.booking-item:hover .more-block2 .details h3{
+		color: #fff;
+		text-shadow:1px 1px 1px rgba(0, 0, 0, 0.43);
+	}
+
+	.booking-item:hover .more-block2 .details p{
+		color: #fff;
+		text-shadow:1px 1px 1px rgba(0, 0, 0, 0.43);
+	}
+
+	.more-block2 .buyBtn{
+		background: url("../img/greenBtn2.png") repeat scroll 0 0 transparent;
+		color: #fff;
+		display: block;
+		font-size: 14px;
+		font-weight: bold;
+		height: 22px;
+		line-height: 20px;
+		position: absolute;
+		right: 89px;
+		text-align: center;
+		text-shadow:1px 1px 2px #8F8989;
+		top: 36px;
+		width: 67px;
+	}
+
+	.more-block2 .buyBtn:hover{
+		text-decoration: none;
+		background: url(../img/greenBtn2.png) no-repeat scroll left bottom;
+	}
+
+	form.booking-form{
+		background-color: #dbe9cc;
+		padding:20px;
+		border-radius: 11px;
+		margin:0 20px 30px 20px;
+		overflow: hidden;
+		background-image: url(../img/form-bg.png);
+		background-repeat: no-repeat;
+		background-position: 50% 0px;
+		background-size: cover;
+	}
+
+	form.booking-form p{
+		width: 250px;
+		float: right;
+		margin-left: 20px;
+	}
+
+	form.booking-form p.form-top{
+		width: 100%;
+		float: none;
+		margin-left: 0px;
+	}
+
+	form.booking-form p label{
+		font-weight: bold;
+		font-size: 18px;
+		color: #858181;
+		width: 250px;
+	}
+
+	form.booking-form p.form-top label{
+		display: block;
+		width: 100%;
+	}
+
+	form.booking-form p input{
+		width: 250px;
+		border-left: none;
+		border-right: none;
+		border-top: 1px solid #c5cbc4;
+		border-bottom: 1px solid #c5cbc4;
+		padding: 5px;
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	form.booking-form span.form-bottom span{
+		font-weight: bold;
+		font-size: 18px;
+		color: #858181;
+		padding-top: 35px;
+		padding-left: 20px;
+	}
+
+	form.booking-form span.form-bottom{
+		display: block;
+	}
+
+	form.booking-form button{
+		width: 209px;
+		height: 40px;
+		background-image: url(../img/form-btn.png);
+		background-repeat: no-repeat;
+		background-position: 50% 0;
+		margin:30px 0 0 0;
+		border: none;
+		background-color: #dbe9cc;
+		font-size: 28px;
+		color: #fff;
+		font-weight: bold;
+	}
+
+	form.booking-form button:hover{
+		background-position: 50% -50px;
+	}
+
+	.navbar-brand{
+		padding: 5px 0 0 0;
+
+	}
+
+	/** DEAL LIST**/
+
+	ul.tabs{
 		list-style: none;
 		margin: 0 0;
-		padding: 0 0;
+		padding:0 0;
+		border-bottom:1px solid #bebebe;
+		border-left: 1px solid #f7f7f7;
 	}
 
-	.boxCitySelector ul li{
+	ul.tabs li{
 		display: inline-block;
+		float: left;
+		border-top: 1px solid #ffcb11;
 	}
 
-	.boxCitySelector ul li a.city-name{
+	ul.tabs li.sort-by{
+		padding: 15px;
+		color: #9a9a9a;
+	}
+
+	ul.tabs li a{
+		padding: 15px;
 		display: block;
-		font-size: 28px;
-		line-height: 48px;
-		vertical-align: middle;
-		color: #fff;
-		text-shadow:0 1px 1px rgba(0,0,0,0.4);
-		font-weight: bold;
-		padding-left: 20px;
-		background-image: url(../img/sprite.png);
-		background-repeat: no-repeat;
-		background-position: -138px -345px;
+		color: #3685c7;
 	}
 
-	.boxCitySelector ul li a.subscription{
-		color: #fff;
-		text-shadow:0 1px 1px rgba(0,0,0,0.6);
-		margin: 0 10px 0 0;
-		padding-left: 20px;
-		background-image: url(../img/sprite.png);
-		background-repeat: no-repeat;
-		background-position: -138px -398px;
-		font-size: 14px;
+	ul.tabs li a:hover{
+		text-decoration: none;
+	}
+
+	ul.tabs li.selected-tab{
+		border-top: 1px solid #11355d;
+		color: #2a5980;
+		background-color: #c2e3ff;
 	}
