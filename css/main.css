@@ -18,6 +18,10 @@ a{
 	color: #0185c6;
 }
 
+img{
+	width: 100%;
+}
+
 .container{
 	width: 953px;
 }
@@ -33,7 +37,7 @@ a{
 }
 
 
-.nav-style{
+#navigation{
 	-webkit-box-shadow:0 1px 0 0 rgba(171,199,101,0.23);
 	box-shadow:0 1px 0 0 rgba(171,199,101,0.23);
 	background:-webkit-linear-gradient(#333, #1a1a1a);
@@ -163,8 +167,12 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 		background-clip:padding-box;
 	}
 
-	.content-bg{
+	.white-background{
 		background-color: #fff;
+	}
+
+	#contentColumn img{
+		width: 100%;
 	}
 
 	.bottom-content-bg{
@@ -260,7 +268,7 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 		top: 24px;
 	}
 
-	.contentDeal-buyBox .price{
+	#contentColumn .price{
 		margin-top: 80px;
 		background-color: #d7f1f7;
 		padding: 10px 0;
@@ -270,7 +278,7 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 		line-height: 1.1em;
 	}
 
-	.contentDeal-buyBox .savings{
+	.savings{
 		text-align: center;
 		font-size: 12px;
 		font-weight: bold;
@@ -278,7 +286,7 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 		overflow: hidden;
 	}
 
-	.contentDeal-buyBox .savings span.savings-discount{
+	.savings span.savings-discount{
 		float: left;
 		width: 60%;
 		display: inline-block;
@@ -286,7 +294,7 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 		padding: 10px 0;
 	}
 
-	.contentDeal-buyBox .savings span.savings-saving{
+	.savings span.savings-saving{
 		float: right;
 		width: 40%;
 		display: inline-block;
@@ -295,16 +303,18 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 		padding: 10px 0;
 	}
 
-	.green-sidebar{
-		
-		padding-top: 10px;
-		
+	#productPicturesAndMapRow{
+		margin-top: 30px;
+		background-color: #ddedcc;
+		border-radius: 11px;
+		overflow: hidden;
 	}
 
 	.merchant-info{
 		margin-bottom: 16px;
 		padding-bottom: 16px;
 		border-bottom: 1px solid #ccc;
+		padding-top: 20px;
 	}
 
 	.merchant-info .merchant-website{
@@ -344,41 +354,42 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 		padding-bottom: 10px;
 	}
 
-	.bottom-content-right{
-		background-color: #fff;
-		border-top-right-radius: 11px;
-		border-bottom-right-radius: 11px;
-	}
+	
 
-	.bottom-content-right h3{
+	#productPicturesAndMapRow h3{
 		font-weight: bold;
 		font-size: 1.17em;
 		line-height: 1.5;
 	}
 
-	.bottom-content-right img{
+	#productPicturesAndMapRow img{
 		width: 100%;
 		margin: 10px 0;
 	}
 
-	.bottom-content-right ul{
+	#productPicturesAndMapRow ul{
 		margin:10px 0 10px 0;
 		padding: 0 16px 0 0;
 		overflow: hidden;
 	}
 
-	.bottom-content-right p{
+	#productPicturesAndMapRow p{
 		margin: 10px 0;
 	}
 
-	.navbar-inverse .navbar-nav>li>a, .userNav li a{
-		color: #ccc !important;
+	#navigation li a{
+		color: #ccc;
 		text-shadow:0 1px 2px #000 !important;
 		font-size: 14px;
 	}
 
-	.navbar-nav li.active a{
-		color:#fcfcfa;
+	#navigation li a:hover{
+		color: #FFF;
+		text-decoration: none;
+	}
+
+	#navigation li.active a{
+		color:#fff;
 		-webkit-border-radius:5px 5px 0 0;
 		border-radius:5px 5px 0 0;
 		-webkit-box-shadow:0 1px 0 rgba(255,255,255,0.4) inset, 0 -3px 5px rgba(0,0,0,0.2);
@@ -395,7 +406,7 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 		max-width:none;
 	}
 
-	.navbar{
+	#navigation{
 		padding-top: 5px;
 	}
 
@@ -445,20 +456,8 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 	a.rafBtn:hover{
 		text-decoration: none;
 	}
-
-	.booking-content{
-		margin-top: 50px;
 	
-	}
-
-	.booking-content-top{
-		display: block;
-		padding: 10px 10px 0 10px;
-		overflow: hidden;
-		line-height: 0;
-	}
-
-	.booking-content h1{
+	#BookingEnginePage h1{
 		display: block;
 		color: #616666;
 		font-size: 30px;
@@ -495,7 +494,7 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 		bottom: 0;
 		height: 88px;
 		left: 61px;
-		width: 339px;
+		width: 328px;
 	}
 
 
@@ -543,12 +542,12 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 		padding-left: 80px;
 		padding-top: 34px;
 		text-align: right;
-		width: 180px;
+		width: 170px;
 	}
 
 	.more-block2-upper span.details{
-		padding-left:10px;
-		padding-top: 24px;
+		padding-left:10px !important;
+		padding-top: 24px !important;
 	}
 
 	.details h3{
@@ -860,11 +859,10 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 
 .row{
 #	width: 953px;
-border: 2px solid red;
 }
 
 div[class*='col-'] {
-	border: 2px solid blue;
+	
 }
 
 
