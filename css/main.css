@@ -11,7 +11,7 @@ body{
 	font-size: 12px;
 	background-image: url(../img/background.jpg);
 	background-repeat: no-repeat;
-	background-position: 85% 0;
+	background-position: 0% 0;
 }
 
 a{
@@ -19,7 +19,9 @@ a{
 }
 
 img{
-	width: 100%;
+  display: block;
+  height: auto;
+  max-width: 100%;
 }
 
 .container{
@@ -456,7 +458,7 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 	a.rafBtn:hover{
 		text-decoration: none;
 	}
-	
+
 	#BookingEnginePage h1{
 		display: block;
 		color: #616666;
@@ -786,17 +788,41 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 		background-position: -137px -515px;
 	}
 
-	.deal a{
+	a.deal{
 		overflow: hidden;
 		display: block;
-		padding:20px 0 20px 0;
 		margin: 0 0 10px 20px;
 		border: 2px solid #e5e5e5;
 		background-color: #fff;
 	}
 
-	.deal a:hover{
+	a.deal :hover{
 		background-color: #d5eafc;
+	}
+
+	.deal ul{
+		list-style: none;
+		margin: 0 0;
+		padding: 10px;
+		overflow: hidden;
+	}
+
+	.deal ul li{
+		display: inline-block;
+		float: right;
+	}
+
+	.deal ul li.deal-img{
+		width: 30%;
+	}
+
+	.deal ul li.deal-info{
+		width: 48%;
+		padding:0 2%;
+	}
+
+	.deal ul li.price-box{
+		width: 20%;
 	}
 
 	.deal .price{
@@ -821,12 +847,11 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 
 	.deal .old-price{
 		font-size: 24px;
-		float: left;
 		text-decoration: line-through;
 		color: #b3b3b3;
 		line-height: 2.2;
 		position: relative;
-		padding-left: 10px;
+		padding-left: 20px;
 	}
 
 	.deal .old-price .old-price-dollar{
@@ -848,7 +873,7 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 	}
 
 	.price-box{
-		text-align: right;
+		text-align: left;
 	}
 
 
