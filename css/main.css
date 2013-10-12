@@ -5,6 +5,17 @@
    ========================================================================== */
 
 
+
+@media (min-width: 992px) { 
+	body { padding-top: 120px; } 
+}
+
+@media (min-width: 992px) { 
+	.container { max-width: 953px; } 
+}
+
+
+
 body{
 	color: #333;
 	background-color: #89b556;
@@ -22,16 +33,6 @@ img{
   display: block;
   height: auto;
   max-width: 100%;
-}
-
-.container{
-	width: 953px;
-}
-
-.holder{
-	
-	margin: 0 auto;
-	word-wrap: break-word;
 }
 
 .content-margin-top{
@@ -875,24 +876,6 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 	.price-box{
 		text-align: left;
 	}
-
-
-
-
-
-
-
-.row{
-#	width: 953px;
-}
-
-div[class*='col-'] {
-	
-}
-
-
-
-
 
 
 
