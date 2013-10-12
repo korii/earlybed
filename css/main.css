@@ -122,7 +122,7 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 	background-repeat: no-repeat;
 	background-position:-41px -2px;
 	width: 104px;
-	margin-right: -10px;
+	margin-right: -8px;
 	font-weight: bold;
 }
 
@@ -132,7 +132,7 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 	color: #4c4c4c;
 	font-size: 11px;
 	word-wrap: break-word;
-	margin: 0 0 8px;
+	margin: 0 0px 9px -2px;
 }
 
 .sidebar-btn{
@@ -174,9 +174,7 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 		background-color: #fff;
 	}
 
-	#contentColumn img{
-		width: 100%;
-	}
+	
 
 	.bottom-content-bg{
 		margin-top: 20px;
@@ -195,10 +193,6 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 	.contentDealTitle a{
 		color: #252525;
 		text-decoration: none;
-	}
-
-	.contentDeal-left img{
-		width: 100%;
 	}
 
 	.contentDeal-info-left h2, .contentDeal-info-right h2{
@@ -330,9 +324,10 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 		line-height: 1.5em;
 	}
 
-	.mapCanvas iframe{
+	.mapCanvas{
 		margin-bottom: 25px;
 		border:1px solid #8cb75a;
+		height: 172px;
 	}
 
 	ul.green-sidebar-address{
@@ -366,7 +361,6 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 	}
 
 	#productPicturesAndMapRow img{
-		width: 100%;
 		margin: 10px 0;
 	}
 
@@ -472,10 +466,6 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 		padding: 0 0;
 		margin: 0 0;
 	} 
-
-	.booking-listing img{
-		width: 100%;
-	}
 
 	.booking-listing li{
 		margin-bottom: 30px;
@@ -685,12 +675,12 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 		margin: 0 0;
 		padding:0 0;
 		border-bottom:1px solid #bebebe;
-		border-left: 1px solid #f7f7f7;
+		border-right: 1px solid #f7f7f7;
 	}
 
 	ul.tabs li{
 		display: inline-block;
-		float: left;
+		float: right;
 		border-top: 1px solid #ffcb11;
 	}
 
@@ -707,6 +697,8 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 
 	ul.tabs li a:hover{
 		text-decoration: none;
+		background-color: #d5eafc;
+		color: #2a5980;
 	}
 
 	ul.tabs li.selected-tab{
@@ -729,7 +721,7 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 		font-size: 24px;
 		font-weight: bold;
 		display: inline-block;
-		float: left;
+		float: right;
 	}
 
 	.deal ul.rating{
@@ -737,12 +729,12 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 		margin: 0 0;
 		padding:0 0 0 10px;
 		display: inline-block;
-		float: left;
+		float: right;
 	}
 
 	.deal ul.rating li{
 		display: inline-block;
-		float: left;
+		float: right;
 	}
 
 	.deal ul.rating li.full-star{
@@ -765,7 +757,7 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 		display: block;
 		width: 100%;
 		float: left;
-		text-align: left;
+		text-align: right;
 		font-size: 16px;
 		color: #b3b3b3;
 	}
@@ -777,16 +769,16 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 	}
 
 	.deal .deal-bottom li{
-		text-align: left;
+		text-align: right;
 		display: inline-block;
-		float: left;
+		float: right;
 	}
 
 	.deal .deal-bottom li.expedia-rate{
-		padding-left: 20px;
+		padding-right: 20px;
 		background-image: url(../img/sprite.png);
 		background-repeat: no-repeat;
-		background-position: -137px -515px;
+		background-position: -41px -516px;
 	}
 
 	a.deal{
@@ -876,6 +868,24 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 	.price-box{
 		text-align: left;
 	}
+
+
+
+
+
+
+
+.row{
+#	width: 953px;
+}
+
+div[class*='col-'] {
+	
+}
+
+
+
+
 
 
 
