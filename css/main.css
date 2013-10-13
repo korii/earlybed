@@ -664,6 +664,7 @@ form.booking-form button{
 
 form.booking-form button:hover{
 	background-position: 50% -50px;
+	color: #fff;
 }
 
 .navbar-brand{
