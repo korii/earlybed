@@ -449,7 +449,7 @@ a.rafBtn:hover{
 	text-decoration: none;
 }
 
-#BookingEnginePage h1{
+#BookingEnginePage h1, #DealListPage h1{
 	display: block;
 	color: #616666;
 	font-size: 30px;
@@ -878,6 +878,7 @@ a.deal :hover{
 .navbar-collapse{
 	float: right;
 }
+
 
 
 @media (min-width: 992px) { 
