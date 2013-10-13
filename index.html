@@ -1,61 +1,69 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> 
-<html class="no-js" dir="RTL" lang="iw_IL"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>EarlyBed</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+  <!DOCTYPE html>
+  <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+  <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+  <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+  <!--[if gt IE 8]><!--> 
+  <html class="no-js" dir="RTL" lang="iw_IL"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>EarlyBed</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
-            }
-        </style>
-        <link rel="stylesheet" href="css/import.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+    body {
+      padding-top: 50px;
+      padding-bottom: 20px;
+    }
+    </style>
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
 
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  </head>
+  <body>
+      <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-    <div class="navbar navbar-inverse navbar-fixed-top nav-style">
-      <div class="holder">
-      <div class="container">
-        <div class="navbar-header pull-right">
-          <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button> -->
-          <a class="navbar-brand" href="#"><img src="img/logo.png" /></a>
-        </div>
-        <div class="navbar-collapse collapse pull-right">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">About</a></li>
-            <li><a href="#about">How it works</a></li>
-            <li><a href="#contact">Register</a></li>
-            <li><a href="#contact">Contact us</a></li>
-          </ul>
 
-        </div><!--/.navbar-collapse -->
+        <div id="navigation" class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header pull-right">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><img src="img/logo.png" /></a>
+            </div>
+            <div class="collapse navbar-collapse pull-right">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">About</a></li>
+                <li><a href="#about">How it works</a></li>
+                <li><a href="#contact">Register</a></li>
+                <li><a href="#contact">Contact us</a></li>
+              </ul>
+            </div>
+            <div class="collapse navbar-collapse pull-left">
+              <ul class="nav navbar-nav">
+                <li><a href="#register">Register </a></li>               
+                <li><a href="#login"> Login</a></li>
+              </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
       </div>
-    </div>
-  </div>
-    <div class="holder content-margin-top">
-    <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-sm-12">
-              <!-- <div class="sidebar-top">
+
+
+
+        <div class="container">
+          <div class="row">
+
+            <!-- sidebarColumn -->
+            <div class="col-md-4"> 
+              <div class="sidebar-top">
                 <h3>Lorem ipsum</h3>
               </div>
               <div class="sidebar-content">
@@ -187,25 +195,58 @@
                     </button>
                   </span>
                 </a>
-              </div> -->
-          </div>
-          <div class="col-md-8 content-bg">
-            <div class="content">
-              <div class="row">
-                <div class="col-md-12">
-                  <!-- <h1 class="contentDealTitle">
+              </div>    
+            </div>
+
+            <!-- contentColumn -->
+            <div id="contentColumn" class="col-md-8"> 
+
+              <!-- productTitleRow -->
+              <div class="row white-background">
+                <!-- productTitleColumn -->          
+                <div class="col-md-12"> 
+                  <h1 class="contentDealTitle">
                     <a href="">
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
                     </a>
-                  </h1> -->
+                  </h1>
+                </div> 
+              </div>  
+
+              <!-- productMainPictureAndBuyRow -->
+              <div class="row white-background">
+                <!-- productMainPictureColumn -->
+                <div class="col-md-8"> 
+                  <a href=""><img src="img/content-deal-img.png"></a>
                 </div>
-                <div class="col-md-8 contentDeal-left">
-                   <div class="row">
-                    <div class="col-md-12">
-                      <!-- <a href=""><img src="img/content-deal-img.png"></a> -->
-                    </div>
-                    
-                    <div class="col-md-6 pull-left contentDeal-info-left">
+                <!-- productBuyColumn -->          
+                <div class="col-md-4">
+                  <div class="contentDeal-buybtn">
+                    <input type="submit" name="buy-btn" class="btnBuy" value="Buy!">
+                    <div class="btnBuyMultiDeal"></div>
+                  </div>
+                  <div class="price">
+                    Price: <br />
+                    $999
+                  </div>
+                  <div class="savings">
+                    <span class="savings-discount">
+                      Lorem <br />
+                      $500
+                    </span>
+                    <span class="savings-saving">
+                      Lorem <br />
+                      30%
+                    </span>
+                  </div>
+                </div>  
+              </div>  
+
+              <!-- productDescriptionRow -->
+              <div id="productDescriptionRow" class="row white-background">
+                <!-- productDescriptionColumn -->          
+                <div class="col-md-4"> 
+                  <div class="contentDeal-info-left">
                       <h2>Lorem ipsum dolor</h2>
                       <h3>Lorem ipsum</h3>
                       <ul>
@@ -224,7 +265,10 @@
                       <h2>Lorem ipsum dolor</h2>
                       <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
                     </div>
-                    <div class="col-md-6 pull-right contentDeal-info-right">
+                </div>
+                <!-- productDescriptionColumn -->            
+                <div class="col-md-4">
+                  <div class="contentDeal-info-right">
                       <h2>Lorem ipsum dolor</h2>
                       <ul>
                         <li><strong>Duis autem vel</strong></li>
@@ -248,37 +292,14 @@
                         <li>Vulputate velit esse</li>
                       </ul>
                     </div>
-                  </div>
                 </div>
-                <div class="col-md-4 contentDeal-buyBox">
-                  <!-- <div class="contentDeal-buybtn">
-                    <input type="submit" name="buy-btn" class="btnBuy" value="Buy!">
-                    <div class="btnBuyMultiDeal"></div>
-                  </div>
-                  <div class="price">
-                    Price: <br />
-                    $999
-                  </div>
-                  <div class="savings">
-                    <span class="savings-discount">
-                      Lorem <br />
-                      $500
-                    </span>
-                    <span class="savings-saving">
-                      Lorem <br />
-                      30%
-                    </span>
-                  </div> -->
-                </div>
-              </div>
-            </div>
+              </div> 
 
-
-        </div>
-        <div class="col-md-8 bottom-content-bg">
-              <div class="row">
-                <div class="col-md-4 green-sidebar">
-                  <!-- <div class="merchant-info">
+              <!-- productPicturesAndMapRow -->
+              <div id="productPicturesAndMapRow" class="row">
+                <!-- productMapColumn -->          
+                <div class="col-md-4"> 
+                  <div class="merchant-info">
                     Lorem ipsum dolor
                     <span class="merchant-website">
                       <a href="">lorem ipsum dolor</a>
@@ -286,7 +307,7 @@
                   </div>
 
                   <div class="mapCanvas">
-                    <iframe width="100%" height="172" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Israel&amp;aq=0&amp;oq=isra&amp;sll=37.0625,-95.677068&amp;sspn=61.153041,129.814453&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Israel&amp;z=7&amp;ll=31.046051,34.851612&amp;output=embed"></iframe><br />
+                    
                   </div>
                   <ul class="green-sidebar-address">
                     <li>
@@ -298,10 +319,11 @@
                     <li class="merchantPresents">
                       Lorem ipsum dolor
                     </li>
-                  </ul> -->
+                  </ul>
                 </div>
-                <div class="col-md-8 bottom-content-right">
-                  <!-- <h3>
+                <!-- productPicturesColumn -->            
+                <div class="col-md-8 white-background">
+                  <h3>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.
                   </h3>
                   <img src="img/lobby.jpg">
@@ -324,29 +346,65 @@
 
                    <p>
                    Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit.
-                   </p> -->
+                   </p>
+                </div>  
+              </div> 
+
+            </div>
+          </div>
+        </div>
+
+
+
+   <!--  <div class="holder content-margin-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+          </div>
+          <div class="col-md-8 content-bg">
+            <div class="row">
+              <div class="col-md-8 contentDeal-left">
+               <div class="row">
+                <div class="col-md-12">
+                </div>
+                <div class="col-md-6 pull-left contentDeal-info-left">
+                </div>
+                <div class="col-md-6 pull-right contentDeal-info-right">
                 </div>
               </div>
             </div>
+            <div class="col-md-4 contentDeal-buyBox">
+            </div>
           </div>
+        </div>
+      </div>
+      <div class="col-md-8 bottom-content-bg">
+        <div class="row">
+          <div class="col-md-4 green-sidebar">
+          </div>
+          <div class="col-md-8 bottom-content-right">
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+
+  </div> -->
 
 
 
 
-    <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+  <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
-        <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
 
-        <script src="js/main.js"></script>
+  <script src="js/main.js"></script>
 
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-    </body>
+  <script>
+  var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src='//www.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+</body>
 </html>
