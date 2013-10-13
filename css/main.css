@@ -6,16 +6,6 @@
 
 
 
-@media (min-width: 992px) { 
-	body { padding-top: 120px; } 
-}
-
-@media (min-width: 992px) { 
-	.container { max-width: 953px; } 
-}
-
-
-
 body{
 	color: #333;
 	background-color: #89b556;
@@ -160,747 +150,748 @@ a.extra-deal:hover h4, a.extra-deal:hover p{
 	height: 25px;
 	line-height: 22px;
 	width: 100%;
-	}
-
-	.sidebar-btn:hover, .sidebar-btn:focus{
-		background-color:#82b548;
-		-pie-background:linear-gradient(#98be69, #89b554);
-		-webkit-background-clip:padding;
-		-moz-background-clip:padding;
-		background-clip:padding-box;
-	}
-
-	.white-background{
-		background-color: #fff;
-	}
-
-	
-
-	.bottom-content-bg{
-		margin-top: 20px;
-		border-radius: 11px;
-		-webkit-border-radius:11px;
-		background-color: #ddedcc;
-	}
-
-	.contentDealTitle{
-		padding:14px 16px 22px;
-		margin: 0;
-		font-size: 30px;
-		font-weight: bold;
-	}
-
-	.contentDealTitle a{
-		color: #252525;
-		text-decoration: none;
-	}
-
-	.contentDeal-info-left h2, .contentDeal-info-right h2{
-		font-size: 18px;
-		font-weight: bold;
-
-	}
-
-	.contentDeal-info-left h3{
-		font-size: 12px;
-		font-weight: bold;
-	}
-
-	.contentDeal-info-left ul{
-		list-style: none;
-		margin: 0 0;
-		padding:0 0;
-		font-size: 12px;
-	}
-
-	.contentDeal-info-left ul li span{
-		text-decoration: underline;
-	}
-
-	.contentDeal-info-left a:hover{
-		text-decoration: none;
-		color: #0185c6;
-	}
-
-	.contentDeal-info-right ul{
-		margin:0 16px 0 0;
-		padding:0 0;
-	}
-
-	.contentDeal-buybtn{
-		position: absolute;
-		padding: 6px 0 0 4px;
-		background-image: url(../img/sprite.png);
-		background-repeat: no-repeat;
-		width: 287px;
-		height: 103px;
-		background-position: 50% -35px;
-		right: -90px;
-		top: -13px;
-	}
-
-	.contentDeal-buybtn input{
-		width: 160px;
-		height: 66px;
-		cursor: pointer;
-		font-weight: bold;
-		color: #fff;
-		font-size: 26px;
-		border: none;
-		background: 0;
-		margin-top: 12px;
-		float: left;
-		margin-left: 64px;
-	}
-
-	.contentDeal-buybtn .btnBuyMultiDeal{
-		position: absolute;
-		left: 15px;
-		width: 34px;
-		height: 57px;
-		cursor: pointer;
-		background-image: url(../img/sprite.png);
-		background-repeat: no-repeat;
-		background-position: 50% -148px;
-		top: 24px;
-	}
-
-	#contentColumn .price{
-		margin-top: 80px;
-		background-color: #d7f1f7;
-		padding: 10px 0;
-		text-align: center;
-		font-size: 24px;
-		font-weight: bold;
-		line-height: 1.1em;
-	}
-
-	.savings{
-		text-align: center;
-		font-size: 12px;
-		font-weight: bold;
-		border-top:1px solid #fff;	
-		overflow: hidden;
-	}
-
-	.savings span.savings-discount{
-		float: left;
-		width: 60%;
-		display: inline-block;
-		background-color: #d7f1f7;
-		padding: 10px 0;
-	}
-
-	.savings span.savings-saving{
-		float: right;
-		width: 40%;
-		display: inline-block;
-		border-left: 1px solid #fff;
-		background-color: #d7f1f7;
-		padding: 10px 0;
-	}
-
-	#productPicturesAndMapRow{
-		margin-top: 30px;
-		background-color: #ddedcc;
-		border-radius: 11px;
-		overflow: hidden;
-	}
-
-	.merchant-info{
-		margin-bottom: 16px;
-		padding-bottom: 16px;
-		border-bottom: 1px solid #ccc;
-		padding-top: 20px;
-	}
-
-	.merchant-info .merchant-website{
-		display: block;
-	}
-
-	.merchant-info .merchant-website a{
-		text-decoration: underline;
-		color: #0185c6;
-		line-height: 1.5em;
-	}
-
-	.mapCanvas{
-		margin-bottom: 25px;
-		border:1px solid #8cb75a;
-		height: 172px;
-	}
-
-	ul.green-sidebar-address{
-		list-style: none;
-		margin: 0 0;
-		padding:0 0;
-
-	}
-
-	ul.green-sidebar-address a{
-		color: #0185c6;
-	}
-
-	ul.green-sidebar-address a:hover{
-		text-decoration: underline;
-	}
-
-	ul.green-sidebar-address li.merchantPresents{
-		margin-top: 10px;
-		font-weight: bold;
-		line-height: 1.3em;
-		padding-bottom: 10px;
-	}
-
-	
-
-	#productPicturesAndMapRow h3{
-		font-weight: bold;
-		font-size: 1.17em;
-		line-height: 1.5;
-	}
-
-	#productPicturesAndMapRow img{
-		margin: 10px 0;
-	}
-
-	#productPicturesAndMapRow ul{
-		margin:10px 0 10px 0;
-		padding: 0 16px 0 0;
-		overflow: hidden;
-	}
-
-	#productPicturesAndMapRow p{
-		margin: 10px 0;
-	}
-
-	#navigation li a{
-		color: #ccc;
-		text-shadow:0 1px 2px #000 !important;
-		font-size: 14px;
-	}
-
-	#navigation li a:hover{
-		color: #FFF;
-		text-decoration: none;
-	}
-
-	#navigation li.active a{
-		color:#fff;
-		-webkit-border-radius:5px 5px 0 0;
-		border-radius:5px 5px 0 0;
-		-webkit-box-shadow:0 1px 0 rgba(255,255,255,0.4) inset, 0 -3px 5px rgba(0,0,0,0.2);
-		box-shadow:0 1px 0 rgba(255,255,255,0.4) inset, 0 -3px 5px rgba(0,0,0,0.2);
-		background:-webkit-linear-gradient(#81a950, #699736);
-		background:-moz-linear-gradient(#81a950, #699736);
-		background:-o-linear-gradient(#81a950, #699736);
-		background:-ms-linear-gradient(#81a950, #699736);
-		background:linear-gradient(#81a950, #699736);
-		-pie-background:linear-gradient(#81a950, #699736);
-		-webkit-background-clip:padding;
-		-moz-background-clip:padding;
-		background-clip:padding-box;
-		max-width:none;
-	}
-
-	#navigation{
-		padding-top: 5px;
-	}
-
-	/** BOOKING ENGINE PAGE **/
-
-	.userNav{
-		list-style: none;
-		margin: 0 0;
-		padding:15px 0 0 0;
-	}
-
-	.userNav li{
-		display: inline-block;
-		padding-right: 7px;
-	}
-
-	.userNav li a:hover{
-		text-decoration: none;
-		color: #fff;
-	}
-	
-	.userNav li:first-child{
-		background-image: url(../img/sprite.png);
-		background-repeat: no-repeat;
-		background-position: -147px -235px;
-		padding-left: 7px;
-	}
-
-	.userNav li a{
-		font-size: 11px;
-	}
-
-	a.rafBtn{
-		background-image: url(../img/sprite.png);
-		background-repeat: no-repeat;
-		background-position: 50% -293px;
-		display: block;
-		padding:17px 83px 17px 41px;
-		text-align: center;
-		color: #fff;
-		font-size: 13px;
-		text-shadow:0 -1px 0 #668c3a;
-		line-height: 0;
-		font-weight: bold;
-	}
-
-	a.rafBtn:hover{
-		text-decoration: none;
-	}
-
-	#BookingEnginePage h1{
-		display: block;
-		color: #616666;
-		font-size: 30px;
-		padding: 20px 20px 30px 20px;
-	}
-
-	.booking-listing{
-		list-style: none;
-		padding: 0 0;
-		margin: 0 0;
-	} 
-
-	.booking-listing li{
-		margin-bottom: 30px;
-	}
-
-	.booking-item{
-		background: url("../img/gradient-bg-booking.png") repeat-x scroll 0 bottom transparent;
-		border:1px solid #D3D0D0;
-		border-radius: 4px;
-		box-shadow: 1px 1px 7px #E6E6E6;
-		position: relative;
-		padding:8px 7px;
-		display: block;
-	}
-
-	.more-block2{
-		background: url("../img/price-arrow.png") no-repeat scroll 6px 5px transparent;
-		position: relative;
-		bottom: 0;
-		height: 88px;
-		left: 61px;
-		width: 328px;
-	}
-
-
-	.booking-item:hover .more-block2{
-		background: url("../img/price-arrow2.png") no-repeat scroll 0 5px transparent;
-
-	}
-
-	.highlighted-price, .highlighted-price-upper{
-		background: none repeat scroll 0 0 #3D3D3D;
-		border: 1px solid #FFFFFF;
-		border-radius: 8px;
-		height: 53px;
-		left: 12px;
-		padding:0 5px;
-		position: absolute;
-		text-align: center;
-		top: 209px;
-		z-index: 10;
-		line-height: 0;
-	}
-
-	.highlighted-price-upper{
-		left: 22px;
-		top: 26px;
-	}
-
-	.highlighted-price h6, .highlighted-price-upper h6{
-		color: #fff;
-		font-size: 12px;
-		padding-top: 0;
-		font-weight: bold;
-	}
-
-	.highlighted-price p, .highlighted-price-upper p{
-		color: #fff;
-		font-size: 10;
-		font-weight: bold;
-		margin: 0 0;
-
-	}
-
-	.more-block2 span.details{
-		float: left;
-		padding-left: 80px;
-		padding-top: 34px;
-		text-align: right;
-		width: 170px;
-	}
-
-	.more-block2-upper span.details{
-		padding-left:10px !important;
-		padding-top: 24px !important;
-	}
-
-	.details h3{
-		font-weight: bold;
-		font-size: 12px;
-		text-shadow:1px 1px 0 rgba(255, 255, 255, 0.64);
-		margin-top: 5px;
-		color: #616666;
-	}
-
-	.details p{
-		color: #616666;
-	}
-
-	.booking-item:hover .more-block2 .details h3{
-		color: #fff;
-		text-shadow:1px 1px 1px rgba(0, 0, 0, 0.43);
-	}
-
-	.booking-item:hover .more-block2 .details p{
-		color: #fff;
-		text-shadow:1px 1px 1px rgba(0, 0, 0, 0.43);
-	}
-
-	.more-block2 .buyBtn{
-		background: url("../img/greenBtn2.png") repeat scroll 0 0 transparent;
-		color: #fff;
-		display: block;
-		font-size: 14px;
-		font-weight: bold;
-		height: 22px;
-		line-height: 20px;
-		position: absolute;
-		right: 89px;
-		text-align: center;
-		text-shadow:1px 1px 2px #8F8989;
-		top: 36px;
-		width: 67px;
-	}
-
-	.more-block2 .buyBtn:hover{
-		text-decoration: none;
-		background: url(../img/greenBtn2.png) no-repeat scroll left bottom;
-	}
-
-	form.booking-form{
-		background-color: #dbe9cc;
-		padding:20px;
-		border-radius: 11px;
-		margin:0 20px 30px 20px;
-		overflow: hidden;
-		background-image: url(../img/form-bg.png);
-		background-repeat: no-repeat;
-		background-position: 50% 0px;
-		background-size: cover;
-	}
-
-	form.booking-form p{
-		width: 250px;
-		float: right;
-		margin-left: 20px;
-	}
-
-	form.booking-form p.form-top{
-		width: 100%;
-		float: none;
-		margin-left: 0px;
-	}
-
-	form.booking-form p label{
-		font-weight: bold;
-		font-size: 18px;
-		color: #858181;
-		width: 250px;
-	}
-
-	form.booking-form p.form-top label{
-		display: block;
-		width: 100%;
-	}
-
-	form.booking-form p input{
-		width: 250px;
-		border-left: none;
-		border-right: none;
-		border-top: 1px solid #c5cbc4;
-		border-bottom: 1px solid #c5cbc4;
-		padding: 5px;
-		font-size: 20px;
-		font-weight: bold;
-	}
-
-	form.booking-form span.form-bottom span{
-		font-weight: bold;
-		font-size: 18px;
-		color: #858181;
-		padding-top: 35px;
-		padding-left: 20px;
-	}
-
-	form.booking-form span.form-bottom{
-		display: block;
-	}
-
-	form.booking-form button{
-		width: 209px;
-		height: 40px;
-		background-image: url(../img/form-btn.png);
-		background-repeat: no-repeat;
-		background-position: 50% 0;
-		margin:30px 0 0 0;
-		border: none;
-		background-color: #dbe9cc;
-		font-size: 28px;
-		color: #fff;
-		font-weight: bold;
-	}
-
-	form.booking-form button:hover{
-		background-position: 50% -50px;
-	}
-
-	.navbar-brand{
-		padding: 5px 0 0 0;
-
-	}
-
-	/** DEAL LIST**/
-
-	ul.tabs{
-		list-style: none;
-		margin: 0 0;
-		padding:0 0;
-		border-bottom:1px solid #bebebe;
-		border-right: 1px solid #f7f7f7;
-	}
-
-	ul.tabs li{
-		display: inline-block;
-		float: right;
-		border-top: 1px solid #ffcb11;
-	}
-
-	ul.tabs li.sort-by{
-		padding: 15px;
-		color: #9a9a9a;
-	}
-
-	ul.tabs li a{
-		padding: 15px;
-		display: block;
-		color: #3685c7;
-	}
-
-	ul.tabs li a:hover{
-		text-decoration: none;
-		background-color: #d5eafc;
-		color: #2a5980;
-	}
-
-	ul.tabs li.selected-tab{
-		border-top: 1px solid #11355d;
-		color: #2a5980;
-		background-color: #c2e3ff;
-	}
-
-	.deal-list img{
-		width: 100%;
-	}
-
-	.deal{
-		overflow: hidden;
-	}
-
-	.deal h2{
-		margin: 0 0;
-		text-align: left;
-		font-size: 24px;
-		font-weight: bold;
-		display: inline-block;
-		float: right;
-	}
-
-	.deal ul.rating{
-		list-style: none;
-		margin: 0 0;
-		padding:0 0 0 10px;
-		display: inline-block;
-		float: right;
-	}
-
-	.deal ul.rating li{
-		display: inline-block;
-		float: right;
-	}
-
-	.deal ul.rating li.full-star{
-		background-image: url(../img/sprite.png);
-		background-repeat: no-repeat;
-		background-position: 50% -468px;
-		width: 20px;
-		height: 24px;
-	}
-
-	.deal ul.rating li.half-star{
-		background-image: url(../img/sprite.png);
-		background-repeat: no-repeat;
-		background-position: 50% -558px;
-		width: 10px;
-		height: 24px;
-	}
-
-	.deal .deal-location, .deal .deal-bottom{
-		display: block;
-		width: 100%;
-		float: left;
-		text-align: right;
-		font-size: 16px;
-		color: #b3b3b3;
-	}
-
-	.deal .deal-bottom {
-		margin: 0 0;
-		padding: 0 0;
-		list-style: none;
-	}
-
-	.deal .deal-bottom li{
-		text-align: right;
-		display: inline-block;
-		float: right;
-	}
-
-	.deal .deal-bottom li.expedia-rate{
-		padding-right: 20px;
-		background-image: url(../img/sprite.png);
-		background-repeat: no-repeat;
-		background-position: -41px -516px;
-	}
-
-	a.deal{
-		overflow: hidden;
-		display: block;
-		margin: 0 0 10px 20px;
-		border: 2px solid #e5e5e5;
-		background-color: #fff;
-	}
-
-	a.deal :hover{
-		background-color: #d5eafc;
-	}
-
-	.deal ul{
-		list-style: none;
-		margin: 0 0;
-		padding: 10px;
-		overflow: hidden;
-	}
-
-	.deal ul li{
-		display: inline-block;
-		float: right;
-	}
-
-	.deal ul li.deal-img{
-		width: 30%;
-	}
-
-	.deal ul li.deal-info{
-		width: 48%;
-		padding:0 2%;
-	}
-
-	.deal ul li.price-box{
-		width: 20%;
-	}
-
-	.deal .price{
-		font-size: 42px;
-		line-height: 1;
-		padding: 0 0 0 20px;
-		position: relative;
-	}
-
-	.deal .price .dollar{
-		font-size: 24px;
-		position: absolute;
-		left: 5px;
-		top: 0;
-	}
-
-	.deal .avg{
-		display: block;
-		color: #3e3e3e;
-		font-size: 14px;
-	}
-
-	.deal .old-price{
-		font-size: 24px;
-		text-decoration: line-through;
-		color: #b3b3b3;
-		line-height: 2.2;
-		position: relative;
-		padding-left: 20px;
-	}
-
-	.deal .old-price .old-price-dollar{
-		font-size: 14px;
-		position: absolute;
-		left: 2px;
-		top: 0;
-		text-decoration: line-through;
-	}
-
-	.deal .deal-strong{
-		display: block;
-		width: 100%;
-		float: left;
-		font-weight: bold;
-		text-align: left;
-		font-size: 16px;
-		color: #b3b3b3;
-	}
-
-	.price-box{
-		text-align: left;
-	}
-
-
-
-
-
-
-
-.row{
-#	width: 953px;
 }
 
-div[class*='col-'] {
-	
+.sidebar-btn:hover, .sidebar-btn:focus{
+	background-color:#82b548;
+	-pie-background:linear-gradient(#98be69, #89b554);
+	-webkit-background-clip:padding;
+	-moz-background-clip:padding;
+	background-clip:padding-box;
+}
+
+.white-background{
+	background-color: #fff;
 }
 
 
 
+.bottom-content-bg{
+	margin-top: 20px;
+	border-radius: 11px;
+	-webkit-border-radius:11px;
+	background-color: #ddedcc;
+}
+
+.contentDealTitle{
+	padding:14px 16px 22px;
+	margin: 0;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.contentDealTitle a{
+	color: #252525;
+	text-decoration: none;
+}
+
+.contentDeal-info-left h2, .contentDeal-info-right h2{
+	font-size: 18px;
+	font-weight: bold;
+
+}
+
+.contentDeal-info-left h3{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.contentDeal-info-left ul{
+	list-style: none;
+	margin: 0 0;
+	padding:0 0;
+	font-size: 12px;
+}
+
+.contentDeal-info-left ul li span{
+	text-decoration: underline;
+}
+
+.contentDeal-info-left a:hover{
+	text-decoration: none;
+	color: #0185c6;
+}
+
+.contentDeal-info-right ul{
+	margin:0 16px 0 0;
+	padding:0 0;
+}
+
+.contentDeal-buybtn{
+	position: absolute;
+	padding: 6px 0 0 4px;
+	background-image: url(../img/sprite.png);
+	background-repeat: no-repeat;
+	width: 287px;
+	height: 103px;
+	background-position: 50% -35px;
+	right: -90px;
+	top: -13px;
+}
+
+.contentDeal-buybtn input{
+	width: 160px;
+	height: 66px;
+	cursor: pointer;
+	font-weight: bold;
+	color: #fff;
+	font-size: 26px;
+	border: none;
+	background: 0;
+	margin-top: 12px;
+	float: left;
+	margin-left: 64px;
+}
+
+.contentDeal-buybtn .btnBuyMultiDeal{
+	position: absolute;
+	left: 15px;
+	width: 34px;
+	height: 57px;
+	cursor: pointer;
+	background-image: url(../img/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 50% -148px;
+	top: 24px;
+}
+
+#contentColumn .price{
+	margin-top: 80px;
+	background-color: #d7f1f7;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 1.1em;
+}
+
+.savings{
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	border-top:1px solid #fff;	
+	overflow: hidden;
+}
+
+.savings span.savings-discount{
+	float: left;
+	width: 60%;
+	display: inline-block;
+	background-color: #d7f1f7;
+	padding: 10px 0;
+}
+
+.savings span.savings-saving{
+	float: right;
+	width: 40%;
+	display: inline-block;
+	border-left: 1px solid #fff;
+	background-color: #d7f1f7;
+	padding: 10px 0;
+}
+
+#productPicturesAndMapRow{
+	margin-top: 30px;
+	background-color: #ddedcc;
+	border-radius: 11px;
+	overflow: hidden;
+}
+
+.merchant-info{
+	margin-bottom: 16px;
+	padding-bottom: 16px;
+	border-bottom: 1px solid #ccc;
+	padding-top: 20px;
+}
+
+.merchant-info .merchant-website{
+	display: block;
+}
+
+.merchant-info .merchant-website a{
+	text-decoration: underline;
+	color: #0185c6;
+	line-height: 1.5em;
+}
+
+.mapCanvas{
+	margin-bottom: 25px;
+	border:1px solid #8cb75a;
+	height: 172px;
+}
+
+ul.green-sidebar-address{
+	list-style: none;
+	margin: 0 0;
+	padding:0 0;
+
+}
+
+ul.green-sidebar-address a{
+	color: #0185c6;
+}
+
+ul.green-sidebar-address a:hover{
+	text-decoration: underline;
+}
+
+ul.green-sidebar-address li.merchantPresents{
+	margin-top: 10px;
+	font-weight: bold;
+	line-height: 1.3em;
+	padding-bottom: 10px;
+}
 
 
 
+#productPicturesAndMapRow h3{
+	font-weight: bold;
+	font-size: 1.17em;
+	line-height: 1.5;
+}
+
+#productPicturesAndMapRow img{
+	margin: 10px 0;
+}
+
+#productPicturesAndMapRow ul{
+	margin:10px 0 10px 0;
+	padding: 0 16px 0 0;
+	overflow: hidden;
+}
+
+#productPicturesAndMapRow p{
+	margin: 10px 0;
+}
+
+#navigation li a{
+	color: #ccc;
+	text-shadow:0 1px 2px #000 !important;
+	font-size: 14px;
+}
+
+#navigation li a:hover{
+	color: #FFF;
+	text-decoration: none;
+}
+
+#navigation li.active a{
+	color:#fff;
+	-webkit-border-radius:5px 5px 0 0;
+	border-radius:5px 5px 0 0;
+	-webkit-box-shadow:0 1px 0 rgba(255,255,255,0.4) inset, 0 -3px 5px rgba(0,0,0,0.2);
+	box-shadow:0 1px 0 rgba(255,255,255,0.4) inset, 0 -3px 5px rgba(0,0,0,0.2);
+	background:-webkit-linear-gradient(#81a950, #699736);
+	background:-moz-linear-gradient(#81a950, #699736);
+	background:-o-linear-gradient(#81a950, #699736);
+	background:-ms-linear-gradient(#81a950, #699736);
+	background:linear-gradient(#81a950, #699736);
+	-pie-background:linear-gradient(#81a950, #699736);
+	-webkit-background-clip:padding;
+	-moz-background-clip:padding;
+	background-clip:padding-box;
+	max-width:none;
+}
+
+#navigation{
+	padding-top: 5px;
+}
+
+/** BOOKING ENGINE PAGE **/
+
+.userNav{
+	list-style: none;
+	margin: 0 0;
+	padding:15px 0 0 0;
+}
+
+.userNav li{
+	display: inline-block;
+	padding-right: 7px;
+	
+}
+
+#navigation .userNav li a{
+	font-size: 11px;
+}
+
+.userNav li a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+
+.userNav li:first-child{
+	background-image: url(../img/sprite.png);
+	background-repeat: no-repeat;
+	background-position: -147px -235px;
+	padding-left: 7px;
+}
+
+.userNav li a{
+	font-size: 11px;
+}
+
+a.rafBtn{
+	background-image: url(../img/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 50% -293px;
+	display: block;
+	padding:17px 83px 17px 41px;
+	text-align: center;
+	color: #fff;
+	font-size: 13px;
+	text-shadow:0 -1px 0 #668c3a;
+	line-height: 0;
+	font-weight: bold;
+}
+
+a.rafBtn:hover{
+	text-decoration: none;
+}
+
+#BookingEnginePage h1{
+	display: block;
+	color: #616666;
+	font-size: 30px;
+	padding: 20px 20px 30px 20px;
+}
+
+#BookingEnginePage{
+	padding-bottom: 20px;
+}
+
+.booking-listing{
+	list-style: none;
+	padding: 0 0;
+	margin: 0 0;
+} 
+
+.booking-listing li{
+	margin-bottom: 30px;
+}
+
+.booking-item{
+	background: url("../img/gradient-bg-booking.png") repeat-x scroll 0 bottom transparent;
+	border:1px solid #D3D0D0;
+	border-radius: 4px;
+	box-shadow: 1px 1px 7px #E6E6E6;
+	position: relative;
+	padding:8px 7px;
+	display: block;
+}
+
+.more-block2{
+	background: url("../img/price-arrow.png") no-repeat scroll 0px 5px transparent;
+	position: relative;
+	bottom: 0;
+	height: 88px;
+	left: 56px;
+	width: 328px;
+}
+
+.more-block2-upper{
+	left: 66px;
+}
 
 
+.booking-item:hover .more-block2{
+	background: url("../img/price-arrow2.png") no-repeat scroll -5px 5px transparent;
+
+}
+
+.highlighted-price, .highlighted-price-upper{
+	background: none repeat scroll 0 0 #3D3D3D;
+	border: 1px solid #FFFFFF;
+	border-radius: 8px;
+	height: 53px;
+	left: 12px;
+	padding:0 5px;
+	position: absolute;
+	text-align: center;
+	top: 209px;
+	z-index: 10;
+	line-height: 0;
+}
+
+.highlighted-price-upper{
+	left: 22px;
+	top: 26px;
+}
+
+.highlighted-price h6, .highlighted-price-upper h6{
+	color: #fff;
+	font-size: 12px;
+	padding-top: 0;
+	font-weight: bold;
+}
+
+.highlighted-price p, .highlighted-price-upper p{
+	color: #fff;
+	font-size: 10;
+	font-weight: bold;
+	margin: 0 0;
+
+}
+
+.more-block2 span.details{
+	float: left;
+	padding-left: 80px;
+	padding-top: 34px;
+	text-align: right;
+	width: 170px;
+}
+
+.more-block2-upper span.details{
+	padding-left:10px !important;
+	padding-top: 24px !important;
+}
+
+.details h3{
+	font-weight: bold;
+	font-size: 12px;
+	text-shadow:1px 1px 0 rgba(255, 255, 255, 0.64);
+	margin-top: 5px;
+	color: #616666;
+}
+
+.details p{
+	color: #616666;
+}
+
+.booking-item:hover .more-block2 .details h3{
+	color: #fff;
+	text-shadow:1px 1px 1px rgba(0, 0, 0, 0.43);
+}
+
+.booking-item:hover .more-block2 .details p{
+	color: #fff;
+	text-shadow:1px 1px 1px rgba(0, 0, 0, 0.43);
+}
+
+.more-block2 .buyBtn{
+	background: url("../img/greenBtn2.png") repeat scroll 0 0 transparent;
+	color: #fff;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	height: 22px;
+	line-height: 20px;
+	position: absolute;
+	right: 89px;
+	text-align: center;
+	text-shadow:1px 1px 2px #8F8989;
+	top: 36px;
+	width: 67px;
+}
+
+.more-block2 .buyBtn:hover{
+	text-decoration: none;
+	background: url(../img/greenBtn2.png) no-repeat scroll left bottom;
+}
+
+form.booking-form{
+	background-color: #dbe9cc;
+	padding:20px;
+	border-radius: 11px;
+	margin:0 20px 30px 20px;
+	overflow: hidden;
+	background-image: url(../img/form-bg.png);
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+	background-size: cover;
+}
+
+form.booking-form .form-top label{
+	display: block;
+}
+
+form.booking-form input{
+	/*width: 250px;*/
+	border-left: none;
+	border-right: none;
+	border-top: 1px solid #c5cbc4;
+	border-bottom: 1px solid #c5cbc4;
+	padding: 5px;
+	font-weight: bold;
+	border-radius: 0px;
+}
+
+.booking-form .form-group{
+	width: 30%;
+	margin-left: 2%;
+}
+
+form.booking-form span.form-bottom span{
+	font-weight: bold;
+	font-size: 18px;
+	color: #858181;
+	padding-top: 35px;
+	padding-left: 20px;
+}
+
+form.booking-form span.form-bottom{
+	display: block;
+}
+
+form.booking-form label{
+	font-size: 18px;
+	font-weight: bold;
+	color: #858181;
+}
+
+form.booking-form span.form-tag{
+	font-size: 20px;
+	font-weight: bold;
+	color: #858181;
+	line-height: 4.5;
+	padding-left: 20px;
+}
+
+form.booking-form button{
+	width: 209px;
+	height: 40px;
+	background-image: url(../img/form-btn.png);
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	margin:-20px 0 0 0;
+	border: none;
+	background-color: #dbe9cc;
+	font-size: 28px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 0;
+}
+
+form.booking-form button:hover{
+	background-position: 50% -50px;
+}
+
+.navbar-brand{
+	padding: 5px 0 0 0;
+
+}
+
+/** DEAL LIST**/
+
+ul.tabs{
+	list-style: none;
+	margin: 0 0;
+	padding:0 0;
+	border-bottom:1px solid #bebebe;
+	border-right: 1px solid #f7f7f7;
+}
+
+ul.tabs li{
+	display: inline-block;
+	float: right;
+	border-top: 1px solid #ffcb11;
+}
+
+ul.tabs li.sort-by{
+	padding: 15px;
+	color: #9a9a9a;
+}
+
+ul.tabs li a{
+	padding: 15px;
+	display: block;
+	color: #3685c7;
+}
+
+ul.tabs li a:hover{
+	text-decoration: none;
+	background-color: #d5eafc;
+	color: #2a5980;
+}
+
+ul.tabs li.selected-tab{
+	border-top: 1px solid #11355d;
+	color: #2a5980;
+	background-color: #c2e3ff;
+}
+
+.deal-list img{
+	width: 100%;
+}
+
+.deal{
+	overflow: hidden;
+}
+
+.deal h2{
+	margin: 0 0;
+	font-size: 24px;
+	font-weight: bold;
+	display: inline-block;
+	float: right;
+}
+
+.deal ul.rating{
+	list-style: none;
+	margin: 0 0;
+	padding:0 0 0 10px;
+	display: inline-block;
+	float: right;
+}
+
+.deal ul.rating li{
+	display: inline-block;
+	float: right;
+}
+
+.deal ul.rating li.full-star{
+	background-image: url(../img/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 50% -468px;
+	width: 20px;
+	height: 24px;
+}
+
+.deal ul.rating li.half-star{
+	background-image: url(../img/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 50% -556px;
+	width: 10px;
+	height: 24px;
+}
+
+.deal .deal-location, .deal .deal-bottom{
+	display: block;
+	width: 100%;
+	float: left;
+	text-align: right;
+	font-size: 16px;
+	color: #b3b3b3;
+}
+
+.deal .deal-bottom {
+	margin: 0 0;
+	padding: 0 0;
+	list-style: none;
+}
+
+.deal .deal-bottom li{
+	text-align: right;
+	display: inline-block;
+	float: right;
+}
+
+.deal .deal-bottom li.expedia-rate{
+	padding-right: 20px;
+	background-image: url(../img/sprite.png);
+	background-repeat: no-repeat;
+	background-position: -41px -516px;
+}
+
+a.deal{
+	overflow: hidden;
+	display: block;
+	margin: 0 0 10px 20px;
+	border: 2px solid #e5e5e5;
+	background-color: #fff;
+}
+
+a.deal :hover{
+	background-color: #d5eafc;
+}
+
+.deal ul{
+	list-style: none;
+	margin: 0 0;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.deal ul li{
+	display: inline-block;
+	float: right;
+}
+
+.deal ul li.deal-img{
+	width: 30%;
+}
+
+.deal ul li.deal-info{
+	width: 48%;
+	padding:0 2%;
+}
+
+.deal ul li.price-box{
+	width: 20%;
+}
+
+.deal .price{
+	font-size: 42px;
+	line-height: 1;
+	padding: 0 0 0 20px;
+	position: relative;
+}
+
+.deal .price .dollar{
+	font-size: 24px;
+	position: absolute;
+	left: 5px;
+	top: 0;
+}
+
+.deal .avg{
+	display: block;
+	color: #3e3e3e;
+	font-size: 14px;
+}
+
+.deal .old-price{
+	font-size: 24px;
+	text-decoration: line-through;
+	color: #b3b3b3;
+	line-height: 2.2;
+	position: relative;
+	padding-left: 20px;
+}
+
+.deal .old-price .old-price-dollar{
+	font-size: 14px;
+	position: absolute;
+	left: 2px;
+	top: 0;
+	text-decoration: line-through;
+}
+
+.deal .deal-strong{
+	display: block;
+	width: 100%;
+	float: right;
+	font-weight: bold;
+	font-size: 16px;
+	color: #b3b3b3;
+}
+
+.price-box{
+	text-align: left;
+}
+
+.navbar-header{
+	float: right;
+}
+
+.navbar-collapse{
+	float: right;
+}
 
 
+@media (min-width: 992px) { 
+body { padding-top: 120px; }
+.container { max-width: 953px; }
+}
 
-
-
-
-
-
-
-
-
+@media (max-width: 992px){
+.booking-form .form-group{ width: 100%; margin-left: 0;}
+form.booking-form span.form-tag{padding-left: 0px; display: block; width: 100%; line-height: 2;}
+form.booking-form button{margin-top: 10px;}
+#BookingEnginePage, #BookingEnginePage, #DealListPage{padding-top: 6%;}
+.navbar-collapse{float: none;}
+.navbar-toggle{	float: left;}
+}
 
 
 
