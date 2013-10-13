@@ -891,6 +891,18 @@ form.booking-form button{margin-top: 10px;}
 #BookingEnginePage, #BookingEnginePage, #DealListPage{padding-top: 6%;}
 .navbar-collapse{float: none;}
 .navbar-toggle{	float: left;}
+.deal ul li.deal-img{
+	width: 100%;
+}
+
+.deal ul li.deal-info{
+	width: 100%;
+	padding:0;
+}
+
+.deal ul li.price-box{
+	width: 100%;
+}
 }
 
 
